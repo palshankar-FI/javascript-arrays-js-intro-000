@@ -14,7 +14,7 @@ describe('arrays', () => {
 
   describe('chocolateBars', () => {
     it('is an array containing snickers, hundred grand, kitkat, and skittles', () => {
-      expect(chocolateBars).to.equal(['snickers', 'hundred grand', 'kitkat', 'skittles'])
+      expect(chocolateBars).to.eql(['snickers', 'hundred grand', 'kitkat', 'skittles'])
     })
   })
 
