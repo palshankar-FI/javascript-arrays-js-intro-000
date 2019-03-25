@@ -12,12 +12,6 @@ describe('arrays', () => {
     src: fs.readFileSync(path.resolve(__dirname, '..', 'arrays.js'), 'utf-8')
   })
 
-  describe('arrays.js', () => {
-    it('can access arrays.js', () => {
-      expect(name).to.equal("FlatIron");
-    })
-  })
-
   describe('chocolateBars', () => {
     it('is an array containing snickers, hundred grand, kitkat, and skittles', () => {
       expect(chocolateBars).to.equal(['snickers', 'hundred grand', 'kitkat', 'skittles'])
